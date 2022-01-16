@@ -1,0 +1,264 @@
+/*===================
+       google-font
+    ==================== */
+    @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Fredericka+the+Great&family=Lato&family=Luxurious+Roman&family=Montserrat:ital,wght@0,500;0,600;0,700;1,500&family=Open+Sans&family=Poppins:wght@400;500&family=Raleway:ital,wght@0,700;1,500&family=Roboto:ital@1&display=swap");
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Lato", sans-serif;
+    }
+    /*======================= 
+               header-section 
+        ===========================*/
+    /*====================
+            navigation bar
+         =================== */
+    
+    .hero {
+      height: 100px;
+      width: 100%;
+    }
+    
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 5%;
+      padding-right: 10%;
+      padding-top: 20px;
+    }
+    
+    .logo {
+      color: rgb(0, 0, 0);
+      font-size: 45px;
+      letter-spacing: 1px;
+    }
+    
+    span {
+      color: rgb(236, 12, 60);
+    }
+    
+    nav ul li {
+      list-style: none;
+      display: inline-block;
+      padding: 20px 30px;
+    }
+    
+    .link {
+      font-size: 23px;
+      color: black;
+    }
+    .search i {
+      font-size: 25px;
+      color: black;
+    }
+    .cart i {
+      font-size: 30px;
+      color: black;
+    }
+    
+    /*=====================
+        section=01 ->flex use
+        ====================== */
+    
+    .flexible {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .banner-left {
+      width: 50%;
+      padding: 95px;
+    }
+    
+    .banner-right{
+      width: 50%;
+      padding: 95px;
+    }
+    
+    
+    /*=============== heading=============== */
+    h1 {
+      font-size: 80px;
+      color: rgb(0, 0, 0);
+    }
+    
+    p {
+      font-size: 20px;
+    }
+    
+    .link-button {
+      text-decoration: none;
+      background-image: linear-gradient(#fa0657, #a11f56);
+      padding: 15px 30px;
+      color: white;
+      font-size: 30px;
+      border-radius: 40px;
+    }
+    
+    i {
+      font-size: 25px;
+      color: white;
+    }
+    
+    /*=====================
+         horizontal section
+       ======================*/
+    hr {
+      border: 2px dotted #d1d1d1;
+      margin: 5px;
+    }
+    
+    span img {
+      height: 80px;
+      width: 130px;
+      margin-left: 120px;
+    }
+    
+    /*=========================
+              Section=>02
+         ========================= */
+    h2 {
+      text-align: center;
+      font-size: 60px;
+    }
+    
+    /*===========gallery section============= */
+    .container {
+      max-width: 1350px;
+      margin: 0 auto;
+      padding: 0 30px;
+    }
+    
+    .section-title {
+      margin-top: 15%;
+      margin-bottom: 80px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+    }
+    
+    .photo {
+      width: 100%;
+      height: 650px;
+      object-fit: cover;
+      box-shadow: 5px 5px 5px 5px #dad5d5;
+      border-radius: 10px;
+    }
+    
+    .photo img {
+      height: 350px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    
+    .title {
+      padding-left: 20px;
+      font-size: 30px;
+    }
+    .doller {
+      font-size: 30px;
+    }
+    
+    /*================== font-awesome================ */
+    .fa-star {
+      font-size: 18px;
+    }
+    .fa-star.filled {
+      color: #ffc014;
+    }
+    .fa-star.empty {
+      color: #aeaeae;
+    }
+    
+    .icon-info h4 {
+      padding-left: 22px;
+      font-size: 20px;
+      color: rgb(124, 122, 122);
+    }
+    
+    /*=============== See-more-button==================*/
+    .see-more {
+      margin-top: 50px;
+      text-align: right;
+    }
+    .button {
+      text-decoration: none;
+      background-image: linear-gradient(#fa0657, #a11f56);
+      padding: 15px 40px;
+      color: white;
+      font-size: 30px;
+      border-radius: 40px;
+    }
+    
+    /* ===================
+            Section=03 
+         ====================*/
+    
+    /*========contact part=========css */
+    .main-contact {
+      margin-top: -100px;
+    }
+    .section-title {
+      font-size: 5px;
+    }
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+    }
+    .text-field {
+      width: 30%;
+      margin: 10px 0;
+      padding: 10px;
+      font-size: 20px;
+      font-family: inherit;
+      outline: 0;
+      border: 2px solid #e7084b;
+    }
+    button {
+      text-decoration: none;
+      background-image: linear-gradient(#fa0657, #a11f56);
+      padding: 10px 30px;
+      color: white;
+      font-size: 25px;
+      border-radius: 40px;
+    }
+    
+    /*========================
+          footer section 
+       ==========================*/
+    
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 30px;
+      color: white;
+      background-color: #0d0822;
+      padding: 10px;
+    }
+    
+    footer h6 {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+    .icon {
+      margin-top: 10px;
+      word-spacing: 10px;
+    }
+    
+    
+    
+    
+    
+    
